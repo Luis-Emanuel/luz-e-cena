@@ -1,6 +1,6 @@
 function App() {
   return (
-   <h1>Sexo gostoso</h1>
+   <h1>Luz e cena</h1>
   )
 }
 
