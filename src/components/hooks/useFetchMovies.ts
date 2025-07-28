@@ -16,16 +16,16 @@ const useFetchMovies = () => {
     } catch (erro) {
       setError('Erro ao buscar filmes. Tentar novamente');
       console.error(erro);
-    } finally{
+    } finally {
       setIsLoading(false);
     }
   }
 
-  useEffect(()=>{
+  useEffect(() => {
     fetchMovies();
-  })
+  }, []);
 
-  return {movies, isLoading, error};
+  return { movies, isLoading, error };
 }
 
 export default useFetchMovies;
