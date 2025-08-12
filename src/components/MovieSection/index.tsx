@@ -34,4 +34,4 @@ const MovieSection = () => {
   )
 }
 
-export default MovieSection
+export default MovieSection;
